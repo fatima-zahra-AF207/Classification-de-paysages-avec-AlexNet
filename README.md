@@ -57,7 +57,7 @@ pip install torch torchvision matplotlib seaborn scikit-learn pillow
 ### 2. Télécharger le dataset
 
 # Dataset Intel Image Classification
-# https://www.kaggle.com/datasets/puneet6060/intel-image-classification
+https://www.kaggle.com/datasets/puneet6060/intel-image-classification
 ### 3. Structure des dossiers
 projet S4/
 ├── archive.zip
