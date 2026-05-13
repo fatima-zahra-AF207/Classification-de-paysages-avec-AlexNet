@@ -10,6 +10,8 @@ Ce projet réalise la classification d'images de paysages en 6 classes à l'aide
 | 4 | 🌊 Sea |
 | 5 | 🛣️ Street |
 
+<img width="1536" height="1024" alt="processus" src="https://github.com/user-attachments/assets/a0034ac8-7ec1-49ab-9945-08ea7c59280b" />
+
 ## 🏗️ Architecture AlexNet
 Input (224x224x3)->
 
@@ -38,7 +40,7 @@ FC3 (6 classes)
 | Loss finale | 0.21 |
 
 ### Matrice de confusion
-![Confusion Matrix](confusion_matrix.png)
+<img width="614" height="286" alt="image" src="https://github.com/user-attachments/assets/133c7d81-9d52-488c-8188-af14dc3b186b" />
 
 ### Courbes d'apprentissage
 ![Learning Curves](learning_curves.png)
