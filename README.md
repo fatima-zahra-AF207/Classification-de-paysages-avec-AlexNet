@@ -43,7 +43,8 @@ FC3 (6 classes)
 <img width="614" height="286" alt="image" src="https://github.com/user-attachments/assets/133c7d81-9d52-488c-8188-af14dc3b186b" />
 
 ### Courbes d'apprentissage
-![Learning Curves](learning_curves.png)
+<img width="1440" height="854" alt="image" src="https://github.com/user-attachments/assets/c98d6811-4d8f-440c-9dd2-9174dc399d5b" />
+
 
 ## 🛠️ Technologies utilisées
 - Python 3.13
