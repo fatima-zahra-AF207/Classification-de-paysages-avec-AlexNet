@@ -11,22 +11,22 @@ Ce projet réalise la classification d'images de paysages en 6 classes à l'aide
 | 5 | 🛣️ Street |
 
 ## 🏗️ Architecture AlexNet
-Input (224x224x3)
-↓
-Conv1 (96 filters, 11x11, stride=4) + ReLU + MaxPool
-↓
-Conv2 (256 filters, 5x5) + ReLU + MaxPool
-↓
-Conv3 (384 filters, 3x3) + ReLU
-↓
-Conv4 (384 filters, 3x3) + ReLU
-↓
-Conv5 (256 filters, 3x3) + ReLU + MaxPool
-↓
-FC1 (4096) + Dropout + ReLU
-↓
-FC2 (4096) + Dropout + ReLU
-↓
+Input (224x224x3)->
+
+Conv1 (96 filters, 11x11, stride=4) + ReLU + MaxPool->
+
+Conv2 (256 filters, 5x5) + ReLU + MaxPool->
+
+Conv3 (384 filters, 3x3) + ReLU->
+
+Conv4 (384 filters, 3x3) + ReLU->
+
+Conv5 (256 filters, 3x3) + ReLU + MaxPool->
+
+FC1 (4096) + Dropout + ReLU->
+
+FC2 (4096) + Dropout + ReLU->
+
 FC3 (6 classes)
 
 **Total des paramètres** : ~58 millions
@@ -78,12 +78,19 @@ projet S4/
 Exécutez le notebook Jupyter cellule par cellule.
 
 📈 Performance par classe
+
 Classe	Précision	Rappel	F1-score
+
 Buildings	0.85	0.83	0.84
+
 Forest	0.92	0.90	0.91
+
 Glacier	0.81	0.83	0.82
+
 Mountain	0.79	0.81	0.80
+
 Sea	0.86	0.88	0.87
+
 Street	0.83	0.81	0.82
 
 ## Innovations clés d'AlexNet
